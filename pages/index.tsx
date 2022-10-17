@@ -9,6 +9,12 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
+        <meta charSet="UTF-8"/>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge"/>
+        <meta name="description" content="18 anos, desenvolvedor full-stack"/>
+        <link rel="canonical" href="https://matheustavares.me"/>
+
         <title>Matheus Tavares</title>
       </Head>
 
