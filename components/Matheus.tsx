@@ -9,7 +9,7 @@ const Matheus = (): JSX.Element => {
     <div className="md:bg-[#1A1A1A] bg-[#D9D9D9] h-[463px] flex justify-center">
         <div className="bg-[#D9D9D9] flex justify-center w-[783px] md:h-[388px] h-[420px] items-center rounded-[30px] mt-[30px]">
             <div className="md:w-[580px] w-[100%] md:h-[253px] h-[100%] flex justify-center md:flex-row flex-col items-center md:gap-x-[50px]">
-                <Image src={"/profile.png"} alt={"Matheus Tavares"} width={261} height={273} quality={"100%"} className="rounded-full"/>
+                <Image src={"/profile.png"} alt={"Matheus Tavares"} width={261} height={273} quality={"100%"} className="md:rounded-full"/>
                 <div className="flex flex-col gap-y-[5px]">
                     <h2 className="font-['Poppins'] text-xl font-bold text-black">Matheus Tavares</h2>
                     <h2 className="font-['Poppins'] text-xl font-bold text-black">18 anos</h2>
