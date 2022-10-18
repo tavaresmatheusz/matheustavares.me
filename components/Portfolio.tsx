@@ -8,7 +8,7 @@ const Portfolio = (): JSX.Element => {
         <div className="flex flex-row justify-evenly flex-wrap py-[80px] w-[100%] gap-y-[20px] gap-x-[80px]">
 
             <div className="flex md:flex-row flex-col shadow-[1px_0px_4px_4px_rgba(0,0,0,0.05)] rounded-[30px]">
-                <Image src={"/sites/loupsite.png"} width={375} height={260} quality={100} className="rounded-tl-[30px] rounded-bl-[30px]"/>
+                <Image src={"/sites/loupsite.png"} width={375} height={260} quality={100} className="rounded-tl-[30px] md:rounded-bl-[30px] rounded-tr-[30px] md:rounded-tr-[0px]"/>
                 <div className="box-border h-[260px] w-[353px] p-4 flex flex-col gap-y-[10px]">
                     <h2 className="font-['Poppins'] text-xl text-black">loup.host</h2>
                     <div className="flex flex-row gap-x-[5px] w-[239px]">
@@ -29,7 +29,7 @@ const Portfolio = (): JSX.Element => {
             </div>
 
             <div className="flex md:flex-row flex-col shadow-[1px_0px_4px_4px_rgba(0,0,0,0.05)] rounded-[30px]">
-                <Image src={"/sites/cardex.png"} width={375} height={260} quality={100} className="rounded-tl-[30px] rounded-bl-[30px]"/>
+                <Image src={"/sites/cardex.png"} width={375} height={260} quality={100} className="rounded-tl-[30px] md:rounded-bl-[30px] rounded-tr-[30px] md:rounded-tr-[0px]"/>
                 <div className="box-border h-[260px] w-[353px] p-4 flex flex-col gap-y-[10px]">
                     <h2 className="font-['Poppins'] text-xl text-black">CarDex</h2>
                     <div className="flex flex-row gap-x-[5px] w-[239px]">
@@ -50,7 +50,7 @@ const Portfolio = (): JSX.Element => {
             </div>
 
             <div className="flex md:flex-row flex-col shadow-[1px_0px_4px_4px_rgba(0,0,0,0.05)] rounded-[30px]">
-                <Image src={"/sites/sst.png"} width={375} height={260} quality={100} className="rounded-tl-[30px] rounded-bl-[30px]"/>
+                <Image src={"/sites/sst.png"} width={375} height={260} quality={100} className="rounded-tl-[30px] md:rounded-bl-[30px] rounded-tr-[30px] md:rounded-tr-[0px]"/>
                 <div className="box-border h-[260px] w-[353px] p-4 flex flex-col gap-y-[10px]">
                     <h2 className="font-['Poppins'] text-xl text-black">SST Egenharia</h2>
                     <div className="flex flex-row gap-x-[5px] w-[239px]">
