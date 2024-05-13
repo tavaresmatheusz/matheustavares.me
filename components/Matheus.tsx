@@ -9,10 +9,10 @@ const Matheus = (): JSX.Element => {
     <div className="md:bg-[#1A1A1A] bg-[#D9D9D9] h-[463px] flex justify-center">
         <div className="bg-[#D9D9D9] flex justify-center w-[783px] md:h-[388px] h-[420px] items-center rounded-[30px] mt-[30px]">
             <div className="md:w-[580px] w-[100%] md:h-[253px] h-[100%] flex justify-center md:flex-row flex-col items-center md:gap-x-[50px]">
-                <Image src={"/old_profile.png"} alt={"Matheus Tavares"} width={220} height={220} quality={"100%"} className="md:rounded-full"/>
+                <Image src={"https://media.licdn.com/dms/image/D4D03AQEByf6FhA2SRw/profile-displayphoto-shrink_400_400/0/1682095242088?e=1721260800&v=beta&t=fXb_xMI0GTcpzAq_qaENEKhDAPErK5cQPy-S7goipFM"} alt={"Matheus Tavares"} width={220} height={220} quality={"100%"} className="md:rounded-full"/>
                 <div className="flex flex-col gap-y-[5px]">
                     <h2 className="font-['Poppins'] text-xl font-bold text-black">Matheus Tavares</h2>
-                    <h2 className="font-['Poppins'] text-xl font-bold text-black">18 anos</h2>
+                    <h2 className="font-['Poppins'] text-xl font-bold text-black">19 anos</h2>
                     <div className="w-[130px] h-[5px] bg-black"/>
                     <h1 className="font-['Poppins'] text-xl font-bold text-black">Desenvolvedor Full-Stack</h1>
                     <div className="flex flex-row gap-x-[18px]">
